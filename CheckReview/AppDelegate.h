@@ -9,7 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
+{
+    NSMutableArray * result;
+    NSMutableArray * userInfos;
+}
 @property (assign) IBOutlet NSWindow *window;
 
 @end

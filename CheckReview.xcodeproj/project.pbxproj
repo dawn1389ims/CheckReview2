@@ -18,6 +18,10 @@
 		7AEB1A1A197D09F200E25B71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEB19F9197D09F200E25B71 /* Cocoa.framework */; };
 		7AEB1A22197D09F200E25B71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AEB1A20197D09F200E25B71 /* InfoPlist.strings */; };
 		7AEB1A24197D09F200E25B71 /* CheckReviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB1A23197D09F200E25B71 /* CheckReviewTests.m */; };
+		7AEB1A33197D0A0100E25B71 /* FWQDateSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB1A2E197D0A0100E25B71 /* FWQDateSource.m */; };
+		7AEB1A34197D0A0100E25B71 /* AnalyseAppReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB1A30197D0A0100E25B71 /* AnalyseAppReview.m */; };
+		7AEB1A39197D15B700E25B71 /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB1A38197D15B700E25B71 /* TestCode.m */; };
+		7AEB1A3A197D15B700E25B71 /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB1A38197D15B700E25B71 /* TestCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,13 @@
 		7AEB1A1F197D09F200E25B71 /* CheckReviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckReviewTests-Info.plist"; sourceTree = "<group>"; };
 		7AEB1A21197D09F200E25B71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7AEB1A23197D09F200E25B71 /* CheckReviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckReviewTests.m; sourceTree = "<group>"; };
+		7AEB1A2D197D0A0100E25B71 /* FWQDateSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWQDateSource.h; sourceTree = "<group>"; };
+		7AEB1A2E197D0A0100E25B71 /* FWQDateSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWQDateSource.m; sourceTree = "<group>"; };
+		7AEB1A2F197D0A0100E25B71 /* AnalyseAppReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyseAppReview.h; sourceTree = "<group>"; };
+		7AEB1A30197D0A0100E25B71 /* AnalyseAppReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyseAppReview.m; sourceTree = "<group>"; };
+		7AEB1A36197D0A3D00E25B71 /* GolbalKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolbalKey.h; sourceTree = "<group>"; };
+		7AEB1A37197D15B700E25B71 /* TestCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCode.h; sourceTree = "<group>"; };
+		7AEB1A38197D15B700E25B71 /* TestCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +129,11 @@
 				7AEB1A0B197D09F200E25B71 /* AppDelegate.h */,
 				7AEB1A0C197D09F200E25B71 /* AppDelegate.m */,
 				7AEB1A0E197D09F200E25B71 /* MainMenu.xib */,
+				7AEB1A2D197D0A0100E25B71 /* FWQDateSource.h */,
+				7AEB1A2E197D0A0100E25B71 /* FWQDateSource.m */,
+				7AEB1A2F197D0A0100E25B71 /* AnalyseAppReview.h */,
+				7AEB1A30197D0A0100E25B71 /* AnalyseAppReview.m */,
+				7AEB1A36197D0A3D00E25B71 /* GolbalKey.h */,
 				7AEB1A11197D09F200E25B71 /* Images.xcassets */,
 				7AEB1A00197D09F200E25B71 /* Supporting Files */,
 			);
@@ -127,6 +143,8 @@
 		7AEB1A00197D09F200E25B71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7AEB1A37197D15B700E25B71 /* TestCode.h */,
+				7AEB1A38197D15B700E25B71 /* TestCode.m */,
 				7AEB1A01197D09F200E25B71 /* CheckReview-Info.plist */,
 				7AEB1A02197D09F200E25B71 /* InfoPlist.strings */,
 				7AEB1A05197D09F200E25B71 /* main.m */,
@@ -253,6 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AEB1A0D197D09F200E25B71 /* AppDelegate.m in Sources */,
+				7AEB1A34197D0A0100E25B71 /* AnalyseAppReview.m in Sources */,
+				7AEB1A39197D15B700E25B71 /* TestCode.m in Sources */,
+				7AEB1A33197D0A0100E25B71 /* FWQDateSource.m in Sources */,
 				7AEB1A06197D09F200E25B71 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEB1A3A197D15B700E25B71 /* TestCode.m in Sources */,
 				7AEB1A24197D09F200E25B71 /* CheckReviewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
